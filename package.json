@@ -1,0 +1,19 @@
+{
+  "name": "xss",
+  "version": "0.1a",
+  "description": "A HTTP backend for listening for xss cookies",
+  "main": "index.js",
+  "author": "disk",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -q main.js"
+  },
+  "private": true,
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13",
+    "winston": "^3.3.3"
+  }
+}
